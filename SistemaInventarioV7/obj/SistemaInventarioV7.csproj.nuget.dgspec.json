@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj",
+        "projectName": "SistemaInventarioV7.AccesoDatos",
+        "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\DynaBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DynaBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://tr1.jfrog.io/tr1/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj"
+              },
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj",
+        "projectName": "SistemaInventarioV7.Modelos",
+        "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj",
+        "packagesPath": "C:\\Users\\DynaBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DynaBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://tr1.jfrog.io/tr1/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj",
+        "projectName": "SistemaInventarioV7.Utilidades",
+        "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\DynaBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DynaBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://tr1.jfrog.io/tr1/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj",
+        "projectName": "SistemaInventarioV7",
+        "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7\\SistemaInventarioV7.csproj",
+        "packagesPath": "C:\\Users\\DynaBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DynaBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://tr1.jfrog.io/tr1/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.AccesoDatos\\SistemaInventarioV7.AccesoDatos.csproj"
+              },
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Modelos\\SistemaInventarioV7.Modelos.csproj"
+              },
+              "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj": {
+                "projectPath": "C:\\Code\\NetCore\\SistemaInventarioV7\\SistemaInventarioV7.Utilidades\\SistemaInventarioV7.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
