@@ -10,6 +10,8 @@ namespace SistemaInventarioV7.AccesoDatos.Repositorio.IRepositorio
     {
         IBodegaRepositorio Bodega { get; }
 
+        ICategoriaRepositorio Categoria { get; }
+
         Task Guardar();
     }
 }
